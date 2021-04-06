@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="400.0" prefWidth="600.0" styleClass="theme" stylesheets="@../../../../../../../dowload/javafx_scenebuilder_samples-2_0/IssueTrackingLite/src/issuetrackinglite/IssueTrackingLite.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxmlsample2.Demo1Controller">
+   <children>
+      <SplitPane dividerPositions="0.45666666666666667" VBox.vgrow="ALWAYS">
+         <items>
+            <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+              <items>
+                  <TableView fx:id="table">
+                    <columns>
+                      <TableColumn fx:id="name" prefWidth="75.0" text="name" />
+                      <TableColumn prefWidth="75.0" text="age" />
+                        <TableColumn prefWidth="75.0" text="height" />
+                    </columns>
+                  </TableView>
+                <AnchorPane />
+              </items>
+            </SplitPane>
+            <ListView fx:id="listView" SplitPane.resizableWithParent="false" />
+         </items>
+      </SplitPane>
+   </children>
+</VBox>

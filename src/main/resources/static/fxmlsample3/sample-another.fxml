@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--使用javascript来替换java对事件的处理-->
+<!--引入javascript作为处理语言-->
+<!--<?language javascript?>-->
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<GridPane fx:controller="fxmlsample3.OtherController"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <padding><Insets top="25" right="25" bottom="10" left="25"/>
+
+    </padding>
+    <Text text="Welcome Another"
+          GridPane.columnIndex="0" GridPane.rowIndex="0"
+          GridPane.columnSpan="2"/>
+    <Button text="another" onAction="#click"></Button>
+
+<!--    <Label text="User Name:"-->
+<!--           GridPane.columnIndex="0" GridPane.rowIndex="1"/>-->
+
+<!--    <TextField-->
+<!--            GridPane.columnIndex="1" GridPane.rowIndex="1"/>-->
+
+<!--    <Label text="Password:"-->
+<!--           GridPane.columnIndex="0" GridPane.rowIndex="2"/>-->
+
+<!--    <PasswordField fx:id="passwordField"-->
+<!--                   GridPane.columnIndex="1" GridPane.rowIndex="2"/>-->
+
+<!--    <HBox spacing="10" alignment="bottom_right"-->
+<!--          GridPane.columnIndex="1" GridPane.rowIndex="4">-->
+<!--        <Button text="Sign In"-->
+<!--                onAction="#handleSubmitButtonAction"/>-->
+<!--    </HBox>-->
+
+<!--    <Text fx:id="actiontarget"-->
+<!--          GridPane.columnIndex="0" GridPane.columnSpan="2"-->
+<!--          GridPane.halignment="RIGHT" GridPane.rowIndex="6"/>-->
+    <!--编写事件处理函数，同样可以编写在js文件中，通过文件引入-->
+<!--    <fx:script>-->
+<!--        function handleSubmitButtonAction() {-->
+<!--            actiontarget.setText("Calling the JavaScript");-->
+<!--        }-->
+<!--    </fx:script>-->
+</GridPane>

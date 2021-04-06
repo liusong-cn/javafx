@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.WebView?>
+<!-- 使用表格式 -->
+<!--<GridPane fx:controller="htmlsample.MyBrowser"-->
+<!--          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">-->
+<!--    <children>-->
+<!--        <WebView fx:id="webView"/>-->
+<!--    </children>-->
+<!--</GridPane>-->
+
+<!-- 使用border-->
+<BorderPane fx:controller="htmlsample.MyBrowser" xmlns:fx="http://javafx.com/fxml">
+    <center>
+        <WebView fx:id="webView"></WebView>
+    </center>
+
+</BorderPane>
